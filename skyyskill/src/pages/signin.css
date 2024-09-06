@@ -1,0 +1,29 @@
+.logout{
+    /* border: 2px solid black; */
+    width:50%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    
+}
+
+.logout h1{
+    color: rgb(35, 35, 153);
+    
+}
+
+.logout button{
+    display: inline-block;
+    background: green;
+    padding: 10px 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vh;
+    /* text-align: center;
+    color:whitesmoke; */
+    /* background-color: rgb(30, 156, 129); */
+}

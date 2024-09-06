@@ -1,0 +1,138 @@
+.master-h {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800 !important;
+    margin: -37px 0px 32px 0px;
+    text-shadow: -5px 1px 3px #745d59;
+    animation: mymove 3s infinite;
+    /* position: fixed !important;
+        text-align: center !important; */
+}
+
+@keyframes mymove {
+    from {
+        color: #146686;
+    }
+
+    to {
+        color: rgb(206, 20, 54);
+    }
+}
+
+
+.Contain {
+    padding: 0 10px;
+}
+
+.add-btn {
+    background: #129aab;
+    box-shadow: -2px 1px 6px 2px #86939f;
+    border: none !important;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    position: absolute;
+    transition: all ease 0.2s;
+    right: 65px;
+    width: 8vw;
+    height: 6vh;
+}
+
+.add-btn:active {
+    scale: 0.9;
+    border: none;
+}
+
+.list-btn {
+    background: #129aab;
+    box-shadow: -2px 1px 6px 2px #86939f;
+    border: none !important;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    position: absolute;
+    transition: all ease 0.2s;
+    right: 65px;
+    width: 8vw;
+    height: 6vh;
+    top: 76px; 
+    right: 1px;
+}
+
+.list-btn:active {
+    scale: 0.9;
+}
+
+.gridd {
+    position: relative;
+}
+
+.list-group.lis-gp {
+    margin-top: 66px !important;
+    height: 47vh;
+    margin: 55px 55px -40px 54px;
+    box-shadow: 0px 0px 3px 0px #69787f;
+    overflow-y: scroll;
+}
+
+.form_contain {
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    height: 104px;
+    margin: 55px 55px -40px 54px;
+}
+
+.text {
+    background: white;
+}
+
+.confrim {
+    height: 200px;
+    width: 350px;
+    display: inline-block;
+    position: absolute;
+    top: calc((100% - 200px)/2);
+    left: calc((100% - 350px)/2);
+    background: #babdc4;
+    box-shadow: 0 0 11px 1px #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon_container {
+    height: 80px;
+    width: 80px;
+    background: rgb(217, 216, 216);
+    border-radius: 50%;
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit {
+    color: rgb(40, 9, 153) !important;
+}
+
+.deletee {
+    color: red;
+    font-size: 71px !important;
+}
+
+.confrim h5 {
+    color: black;
+    margin-top: 20px;
+}
+
+.confrim p {
+    font-size: 15px;
+    color: black;
+    margin-top: 13px;
+}

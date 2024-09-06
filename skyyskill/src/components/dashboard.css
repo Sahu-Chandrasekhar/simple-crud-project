@@ -1,0 +1,9 @@
+#dashboard {
+    color: #efe5e5;
+    height: 100vh;
+    display: inline-block;
+    width: calc(100% - 250px);
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -44.2rem;
+}

@@ -1,0 +1,10 @@
+.outlet {
+    color: #fff;
+    background-color: rgba(218, 221, 227, 0.61);
+    width: 100%;
+    /* height: calc(100% - 12vh); */
+    height: 89.7vh;
+    position: absolute;
+    padding-top: 60px;
+}
+

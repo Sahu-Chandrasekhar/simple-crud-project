@@ -1,0 +1,15 @@
+p.card-text{
+    color: black;
+}
+h5.card-title{
+    color: black;
+}
+
+.m-0 {
+    display: flex;
+    flex-direction: row;
+    margin: 0!important;
+    justify-content: center;
+    align-items: center;
+    padding: 46px 108px 46px 153px;
+}

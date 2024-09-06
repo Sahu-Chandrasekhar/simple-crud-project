@@ -1,0 +1,42 @@
+#header {
+    width: 100%;
+    height: 12vh;
+    background: #d3e4e4;
+    box-shadow: 4px 4px 10px 1px #5e4949;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1px;
+    padding-right: 50px;
+}
+
+#header .icon{
+    margin-left: 63rem;
+    font-size: 41px;
+    color: #011220;
+}
+
+#header button {
+    color: #fff;
+    box-shadow: -2px 1px 6px 2px #d16464;
+    background-image: linear-gradient(to right, red , #d35964, orange);
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    gap: 1px;
+    font-size: revert;
+    transition: all
+    ease 0.2s;
+    border: none !important;
+}
+
+#header button :active{
+    scale: 0.9;
+}
+
+/* #header button :hover{
+    background-color: rgb(94, 232, 94);
+    color: #fff solid;
+} */
